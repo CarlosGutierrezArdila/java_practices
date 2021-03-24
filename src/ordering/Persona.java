@@ -16,6 +16,14 @@ public class Persona implements Precedable {
         return this.dni-personaAComparar.dni;
     }
 
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "nombre='" + nombre + '\'' +
+                ", dni=" + dni +
+                '}';
+    }
+
     public String getNombre() {
         return nombre;
     }
